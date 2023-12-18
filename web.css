@@ -1,0 +1,408 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century gothic;
+}
+/*header start*/
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('pexels-asad-photo-maldives-3601453.jpg');
+    height: 750px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid white transparent;
+    transition: 0.6s ease-out;
+}
+
+ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px whitesmoke;
+}
+
+.logo > img{
+    float: left;
+    width: 250px;
+    height: auto;
+}
+.titile{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.titile > h1{
+    color: white;
+    font-size: 63px;
+    
+}
+.button{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    margin-left: 10px;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    box-shadow: inset  0 0 0 #ffffff ;
+    transition: 0.6s ease-out;
+}
+.btn:hover{
+    box-shadow: inset 180px 0 0 white;
+    color: black;
+}
+/*header end*/
+
+
+/*section 1 start*/
+.sec1{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('pexels-carsten-ruthemann-6485402.jpg');
+    height: 750px;
+    background-size: cover;
+    background-position: center;
+}
+.sec1 > h1{
+    margin-left: 70%;
+    color: whitesmoke;
+    font-size: 25px;
+    letter-spacing: 12px;
+    text-shadow: 2px 2px 3px rgb(134, 134, 134);
+}
+.lside > #imge1{
+    width: 450px;
+    height: 450px;
+    margin-top: 6%;
+    margin-left: 8%;
+    border-radius: 70%;
+    border: 2px solid orange;
+    box-shadow: 0 0 150px 10px orange;
+}
+.lside{
+    position: absolute;
+}
+.rside{
+    position: absolute;
+    margin-left: 37%;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+.rside > p{
+    color: whitesmoke;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+/*section 1 end*/
+
+/*section 2 start*/
+.sec2{
+    background-image:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url('pexels-johannes-plenio-1146710.jpg');
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+}
+.sec2 > h1{
+    margin-left: 70%;
+    color: whitesmoke;
+    font-size: 25px;
+    letter-spacing: 12PX;
+    text-shadow: 2px 2px 3px rgb(134, 134, 134);
+
+}
+.serleft{
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 6%;
+}
+.serleft > img{
+    width: 285px;
+    height: 230px;
+    border-radius: 70%;
+    border: 2px solid white;
+}
+.serleft > img:hover{
+    transform: scale(1.2);
+    z-index: 2;
+    transition: 0.6s ease;
+    box-shadow: 0 0 15px whitesmoke;
+}
+.serleft > h2{
+    color: white;
+    margin-left: 27%;
+    margin-top: 6.5%;
+    letter-spacing: 2PX;
+}
+.serleft2{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 6%;
+}
+.serleft2 > img{
+    width: 285px;
+    height: 230px;
+    border-radius: 70%;
+    border: 2px solid white;
+}
+.serleft2 > img:hover{
+    transform: scale(1.2);
+    z-index: 2;
+    transition: 0.6s ease;
+    box-shadow: 0 0 15px whitesmoke;
+}
+.serleft2 > h2{
+    margin-left: 25%;
+    color: white;
+    margin-top: 6.5%;
+    letter-spacing: 2PX;
+}
+.serright{
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 6%;
+}
+.serright > img{
+    width: 285px;
+    height: 230px;
+    border-radius: 70%;
+    border: 2px solid white;
+}
+.serright > img:hover{
+    transform: scale(1.2);
+    z-index: 2;
+    transition: 0.6s ease;
+    box-shadow: 0 0 15px whitesmoke;
+}
+.serright > h2{
+    color: white;
+    margin-left: 27%;
+    margin-top: 6.5%;
+    letter-spacing: 2PX;
+}
+.serright2{
+    position: absolute;
+    margin-top: 26%;
+    margin-left: 25%
+
+}
+.serright2 > img{
+    width: 285px;
+    height: 230px;
+    border-radius: 70%;
+    border: 2px solid whitesmoke;
+   
+}
+.serright2 > img:hover{
+    transform: scale(1.2);
+    z-index: 2;
+    transition: 0.6s ease;
+    box-shadow: 0 0 15px whitesmoke;
+
+}
+.serright2 > h2{
+    color: white;
+    margin-left: 20%;
+    margin-top: 6.5%;
+    letter-spacing: 2PX;
+}
+.serright3{
+    position: absolute;
+    margin-top: 26%;
+    margin-left: 56.5%;
+    
+}
+.serright3 > img{
+    width: 285px;
+    height: 230px;
+    border-radius: 70%;
+    border: 2px solid white;
+}
+.serright3 > img:hover{
+    transform: scale(1.2);
+    z-index: 2;
+    transition: 0.6s ease;
+    box-shadow: 0 0 15px whitesmoke;
+
+}
+.serright3 > h2{
+    letter-spacing: 2px;
+    color: white;
+    margin-top: 6.5%;
+    margin-left: 24%
+}
+/*section 2 end*/
+
+
+/*section 3 start*/
+.sec3{
+    background-image:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url('pexels-alexey-demidov-9573472.jpg');
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+}
+.sec3 > h2{
+    margin-left: 70%;
+    color: whitesmoke;
+    font-size: 25px;
+    letter-spacing: 12PX;
+    text-shadow: 2px 2px 3px rgb(134, 134, 134);
+
+}
+#img1,#img2,#img3,#img4{
+    margin-top: 4%;
+    margin-left: 1%;
+    width: 290px;
+    height: 250px;
+    border-radius: 35%;
+    margin-right: 4%;
+    border: 2px solid orange;
+    box-shadow: 0 0 10px orange;
+
+}
+#img5,#img6,#img7,#img8{
+    margin-top: 2%;
+    margin-left: 1%;
+    width: 290px;
+    height: 250px;
+    border-radius: 35%;
+    margin-right: 4%;
+    border: 2px solid white;
+    box-shadow: 0 0 10px white;
+
+}
+#img9,#img10,#img11,#img12{
+    margin-top: 2%;
+    margin-left: 1%;
+    width: 290px;
+    height: 250px;
+    border-radius: 35%;
+    margin-right: 4%;
+    border: 2px solid green;
+    box-shadow: 0 0 10px green;
+}
+/*section 3 end*/
+
+
+/*footer start*/
+.main1{
+    background-image:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url('pexels-victor-santos-325703.jpg');
+    height: 750px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.footlside{
+    color: white;
+    margin-left: 10%;
+    padding-top: 8%;
+    position: absolute;
+}
+.footlside > h1{
+    letter-spacing: 17px;
+}
+.footlside > p{
+    margin-left: 3.5%;
+    font-size: 16px;
+}
+.footerside{
+    position: absolute;
+    margin-left: 75%;
+    padding-top: 8%;
+}
+.footerside > h2{
+    color: white;
+    font-size: 190%;
+}
+#uname,#email{
+    padding: 1.6% 12%;
+}
+input{
+    border: 1px solid orange;
+    background:none;
+    color: #ffffff;
+}
+textarea{
+    border: 1px solid gold;
+    background: none;
+    color: #ffffff;
+}
+#btn{
+    padding: 3%;
+    width: 30%;
+    font-size: 14px;
+    cursor: pointer;
+    background: none;
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 gold;
+    transition: 0.6s ease-out;
+
+    color: white;
+
+}
+#btn:hover{
+    box-shadow: inset 100px 0 0 gold;
+    color: black;
+
+}
+#query{
+    width: 310px;
+    height: 105px;
+}
+.logo2 > img{
+    margin-left: 7%;
+    margin-top: 25%;
+    width: 300px;
+    height: auto;
+    position: absolute;
+}
+.icons > a{
+    position: absolute;
+    margin-left: 13%;
+    font-size: 25px;
+    margin-top: 42%;
+}
+#wht{
+    color: rgb(255, 255, 255);
+}
+#wht:hover{
+    color: rgb(38, 151, 38);
+}
+#you{
+    margin-left: 450%;
+    color: white;
+}
+#you:hover{
+    color: red;
+
+}
+#insta{
+    margin-top: 15%;
+    margin-left: 225%;
+    color: rgb(255, 255, 255);
+}
+#insta:hover{
+    color: rgb(185, 35, 150);
+}
+/*footer end*/
