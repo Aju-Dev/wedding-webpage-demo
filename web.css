@@ -98,7 +98,7 @@ ul li a:hover{
     margin-left: 8%;
     border-radius: 70%;
     border: 2px solid orange;
-    box-shadow: 0 0 150px 10px orange;
+    box-shadow:  0 0 150px 10px orange;
 }
 .lside{
     position: absolute;
@@ -357,6 +357,7 @@ textarea{
     border-radius: 20px;
     box-shadow: inset 0 0 0 gold;
     transition: 0.6s ease-out;
+    letter-spacing: 1px;
 
     color: white;
 
@@ -406,3 +407,15 @@ textarea{
     color: rgb(185, 35, 150);
 }
 /*footer end*/
+.arrow > a{
+    position: absolute;
+    margin-left: 95%;
+    font-size: 30px;
+    margin-top: 42%;
+}
+#arrow{
+    color: gold
+}
+html{
+    scroll-behavior: smooth;
+}
